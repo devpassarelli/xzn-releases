@@ -1,0 +1,139 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>xzn launcher</title>
+<meta name="description" content="Todas as suas contas de PokeIdle numa janela só: hunts calculadas, lives automáticas e economia de memória.">
+<meta property="og:title" content="xzn launcher">
+<meta property="og:description" content="Todas as suas contas de PokeIdle numa janela só. Grátis para Windows.">
+<meta name="theme-color" content="#061a2e">
+<link rel="icon" href="xzn.svg" type="image/svg+xml">
+<link rel="stylesheet" href="style.css">
+<script src="main.js" defer></script>
+</head>
+<body>
+<div class="bolhas" aria-hidden="true"></div>
+
+<header class="topo">
+  <div class="wrap">
+    <a class="marca" href="#"><img src="xzn.svg" alt=""><span>xzn</span></a>
+    <nav><a href="#recursos">recursos</a><a href="#instalar">instalar</a><a href="#duvidas">dúvidas</a></nav>
+    <a class="topo-baixar baixar" href="https://github.com/devpassarelli/xzn-releases/releases/latest/download/XzN-Launcher-Setup.exe" data-win="https://github.com/devpassarelli/xzn-releases/releases/latest/download/XzN-Launcher-Setup.exe" data-mac="https://github.com/devpassarelli/xzn-releases/releases/latest/download/XzN-Launcher-Mac.dmg">baixar</a>
+  </div>
+</header>
+
+<main>
+  <section class="hero">
+    <div class="wrap hero-grid">
+      <div class="hero-texto">
+        <span class="selo"><i></i> grátis para Windows e Mac</span>
+        <h1>xzn <em>launcher</em></h1>
+        <p class="lead">Todas as suas contas de PokeIdle numa janela só. Até 4 contas lado a lado, as melhores hunts calculadas para o seu pokémon, bônus de live automático e bem menos memória que abrir várias abas.</p>
+        <div class="acoes">
+          <a class="cta baixar" href="https://github.com/devpassarelli/xzn-releases/releases/latest/download/XzN-Launcher-Setup.exe" data-win="https://github.com/devpassarelli/xzn-releases/releases/latest/download/XzN-Launcher-Setup.exe" data-mac="https://github.com/devpassarelli/xzn-releases/releases/latest/download/XzN-Launcher-Mac.dmg">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 15V3"/><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><path d="m7 10 5 5 5-5"/></svg>
+            <span>Baixar para Windows</span>
+          </a>
+          <a class="secundario outro-sistema" href="https://github.com/devpassarelli/xzn-releases/releases/latest/download/XzN-Launcher-Mac.dmg" data-win="https://github.com/devpassarelli/xzn-releases/releases/latest/download/XzN-Launcher-Setup.exe" data-mac="https://github.com/devpassarelli/xzn-releases/releases/latest/download/XzN-Launcher-Mac.dmg">baixar para Mac</a>
+        </div>
+        <div class="meta" id="meta">se atualiza sozinho</div>
+      </div>
+      <div class="hero-arte" aria-hidden="true">
+        <div class="aquario">
+          <div class="onda o1"></div><div class="onda o2"></div>
+          <img class="mon blastoise" src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/9.gif" alt="">
+          <img class="mon wartortle" src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/8.gif" alt="">
+          <img class="mon squirtle" src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/7.gif" alt="">
+          <div class="jato j1"></div><div class="jato j2"></div>
+        </div>
+      </div>
+    </div>
+    <svg class="mar" viewBox="0 0 1440 120" preserveAspectRatio="none" aria-hidden="true">
+      <path class="m1" d="M0 60 C 240 20 480 100 720 60 S 1200 20 1440 60 V120 H0Z"/>
+      <path class="m2" d="M0 80 C 240 40 480 120 720 80 S 1200 40 1440 80 V120 H0Z"/>
+    </svg>
+  </section>
+
+  <section class="numeros">
+    <div class="wrap">
+      <div class="num"><b data-conta="4">0</b><span>contas ao mesmo tempo</span></div>
+      <div class="num"><b data-conta="2">0</b><span>lives da Kick por conta</span></div>
+      <div class="num"><b data-conta="87" data-sufixo="%">0</b><span>menos CPU por conta no Modo Economia*</span></div>
+      <div class="num"><b>R$ 0</b><span>sempre grátis</span></div>
+    </div>
+    <small class="wrap rodape-num">* medido pelo próprio PokeIdle, na aba da conta em Modo Economia</small>
+  </section>
+
+  <section id="recursos" class="recursos">
+    <div class="wrap">
+      <h2 class="revela">feito para quem joga sério</h2>
+      <p class="sub revela">Tudo roda no seu computador, com as suas contas. O launcher só lê o jogo; quem joga continua sendo você.</p>
+      <div class="cards">
+        <article class="card revela"><div class="ico"><svg viewBox="0 0 24 24"><rect width="7" height="7" x="3" y="3" rx="1"/><rect width="7" height="7" x="14" y="3" rx="1"/><rect width="7" height="7" x="14" y="14" rx="1"/><rect width="7" height="7" x="3" y="14" rx="1"/></svg></div>
+          <h3>4 contas lado a lado</h3><p>Cada uma com o próprio login. Maximize uma quando quiser, e as outras seguem caçando.</p></article>
+        <article class="card revela"><div class="ico"><svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/><path d="M2 12h7M15 12h7"/><circle cx="12" cy="12" r="3"/></svg></div>
+          <h3>xzn hunts</h3><p>As melhores hunts para o pokémon em campo, com as regras do próprio jogo e corrigidas pelo que você mede caçando. Com contador de bolas para shiny hunt.</p></article>
+        <article class="card revela"><div class="ico"><svg viewBox="0 0 24 24"><path d="M4.9 19.1C1 15.2 1 8.8 4.9 4.9"/><path d="M7.8 16.2c-2.3-2.3-2.3-6.1 0-8.5"/><circle cx="12" cy="12" r="2"/><path d="M16.2 7.8c2.3 2.3 2.3 6.1 0 8.5"/><path d="M19.1 4.9C23 8.8 23 15.1 19.1 19"/></svg></div>
+          <h3>bônus de live sozinho</h3><p>Fica nas lives oficiais da Twitch e da Kick em segundo plano, mudas e na menor qualidade, para ganhar o bônus de XP do jogo.</p></article>
+        <article class="card revela"><div class="ico"><svg viewBox="0 0 24 24"><path d="M11 20A7 7 0 0 1 9.8 6.1C15.5 5 17 4.48 19 2c1 2 2 4.18 2 8 0 5.5-4.78 10-10 10Z"/><path d="M2 21c0-3 1.85-5.36 5.08-6C9.5 14.52 12 13 13 12"/></svg></div>
+          <h3>leve de verdade</h3><p>Modo Economia automático quando você não está olhando, limite de quadros e de memória. A caça continua; o computador respira.</p></article>
+        <article class="card revela"><div class="ico"><svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/><circle cx="12" cy="12" r="6"/><circle cx="12" cy="12" r="2"/></svg></div>
+          <h3>extensões prontas</h3><p>/hunt for PokeIdle já vem junto, e o Rotom Sniper é baixado da Chrome Web Store com um clique, numa conta que você escolhe.</p></article>
+        <article class="card revela"><div class="ico"><svg viewBox="0 0 24 24"><circle cx="13.5" cy="6.5" r="1"/><circle cx="17.5" cy="10.5" r="1"/><circle cx="8.5" cy="7.5" r="1"/><circle cx="6.5" cy="12.5" r="1"/><path d="M12 2C6.5 2 2 6.5 2 12s4.5 10 10 10c.926 0 1.648-.746 1.648-1.688 0-.437-.18-.835-.437-1.125-.29-.289-.438-.652-.438-1.125a1.64 1.64 0 0 1 1.668-1.668h1.996c3.051 0 5.555-2.503 5.555-5.554C21.965 6.012 17.461 2 12 2z"/></svg></div>
+          <h3>do seu jeito</h3><p>Temas com pokémon animados, fontes, nome, emoji e ícone próprios. E ele se atualiza sozinho.</p></article>
+      </div>
+    </div>
+  </section>
+
+  <section id="instalar" class="instalar">
+    <div class="wrap">
+      <h2 class="revela">instalar leva um minuto</h2>
+      <div class="abas revela" role="tablist">
+        <button role="tab" class="aba on" data-so="win">Windows</button>
+        <button role="tab" class="aba" data-so="mac">Mac</button>
+      </div>
+      <ol class="passos so-win">
+        <li class="revela"><h3>baixe</h3><p>Clique em "Baixar para Windows". O arquivo tem uns 110 MB.</p></li>
+        <li class="revela"><h3>abra o instalador</h3><p>Dois cliques em <b>XzN-Launcher-Setup.exe</b>. Ele instala e abre sozinho, sem perguntas.</p></li>
+        <li class="revela"><h3>entre nas contas</h3><p>Faça login em cada card. O launcher guarda os logins e, daí em diante, se atualiza sozinho.</p></li>
+      </ol>
+      <div class="aviso revela so-win"><b>O Windows mostrou "O Windows protegeu o computador"?</b> É normal: o aviso aparece para programas que ainda não têm assinatura digital paga. Clique em <b>Mais informações</b> e depois em <b>Executar assim mesmo</b>.</div>
+      <ol class="passos so-mac" hidden>
+        <li class="revela"><h3>baixe</h3><p>Clique em "Baixar para Mac". Funciona nos Macs com chip Apple (M1 a M4) e nos Intel, com macOS 11 ou mais novo.</p></li>
+        <li class="revela"><h3>arraste para Aplicativos</h3><p>Abra o <b>XzN-Launcher-Mac.dmg</b> e arraste o xzn launcher para a pasta <b>Aplicativos</b>.</p></li>
+        <li class="revela"><h3>libere na primeira vez</h3><p>Abra o app. Se o Mac bloquear, vá em <b>Ajustes do Sistema → Privacidade e Segurança</b> e clique em <b>Abrir mesmo assim</b>.</p></li>
+      </ol>
+      <div class="aviso revela so-mac" hidden><b>Por que o Mac pede para liberar?</b> O app ainda não tem a assinatura paga da Apple, então o macOS pede a sua confirmação na primeira vez. Pelo mesmo motivo, no Mac as versões novas são baixadas por esta página: o launcher avisa com o botão "Baixar a nova" quando sair uma.</div>
+    </div>
+  </section>
+
+  <section id="duvidas" class="duvidas">
+    <div class="wrap">
+      <h2 class="revela">dúvidas</h2>
+      <div class="faq">
+        <details class="revela"><summary>É de graça?</summary><p>Sim. O xzn launcher é gratuito.</p></details>
+        <details class="revela"><summary>Posso usar no jogo sem problema?</summary><p>Os termos do PokeIdle permitem automações e extensões, desde que não explorem falhas nem burlem limites. O launcher segue essas regras: ele lê o jogo e deixa você jogar mais contas com conforto; não mexe no que o servidor decide.</p></details>
+        <details class="revela"><summary>Meus dados e senhas ficam onde?</summary><p>No seu computador, como num navegador comum. Cada conta tem o próprio armazenamento isolado, e o launcher não envia seus logins para lugar nenhum.</p></details>
+        <details class="revela"><summary>Ele pesa no computador?</summary><p>Bem menos que abrir várias abas do navegador. A aceleração de vídeo fica desligada por padrão, cada conta tem limite de quadros e de memória, e o Modo Economia entra sozinho quando você não está olhando.</p></details>
+        <details class="revela"><summary>Funciona em Mac ou celular?</summary><p>Funciona no Windows 10 e 11 e no Mac (chip Apple ou Intel, macOS 11 ou mais novo). No celular, não.</p></details>
+        <details class="revela"><summary>Como atualizo?</summary><p>No Windows, não precisa fazer nada: o launcher baixa a versão nova sozinho e mostra o botão "Atualizar" no topo. No Mac, o launcher avisa com o botão "Baixar a nova", que abre esta página para você baixar e arrastar de novo para Aplicativos (os logins continuam).</p></details>
+      </div>
+    </div>
+  </section>
+
+  <section class="final">
+    <div class="wrap">
+      <img class="final-mon" src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/7.gif" alt="" aria-hidden="true">
+      <h2 class="revela">pronto para jogar?</h2>
+      <a class="cta baixar revela" href="https://github.com/devpassarelli/xzn-releases/releases/latest/download/XzN-Launcher-Setup.exe" data-win="https://github.com/devpassarelli/xzn-releases/releases/latest/download/XzN-Launcher-Setup.exe" data-mac="https://github.com/devpassarelli/xzn-releases/releases/latest/download/XzN-Launcher-Mac.dmg">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 15V3"/><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><path d="m7 10 5 5 5-5"/></svg>
+        <span>Baixar para Windows</span>
+      </a>
+    </div>
+  </section>
+</main>
+
+<footer><div class="wrap">xzn launcher · feito por fãs. PokeIdle e Pokémon pertencem aos seus respectivos donos; este projeto não tem vínculo oficial com eles. Sprites: PokeAPI.</div></footer>
+</body>
+</html>
